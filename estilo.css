@@ -1,0 +1,60 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+figure{
+    width: 330px;
+}
+.cafe{
+    width: 330px;
+}
+.estrelas img{
+    width: 110px;
+}
+.localizacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estrutura sendo alinhada */
+body figure{
+    margin: auto;
+    box-shadow:5px 5px 8px black;
+    border-radius: 20px;
+
+}
+/* imagem da estrutura */
+body figure img{
+    border-radius: 20px;
+}
+
+figcaption{
+    padding: 0px 10px;
+}
+.dist{
+    display: flex;
+    align-items: center;
+}
+
+.dias{
+    text-align: center;
+}
+.horario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.horario div+div{
+    margin-left:12px ;
+}
+.horario img{
+    
+    margin-right: 10px;
+}
+.reserva{
+    font-size: 20pt;
+    color: rgb(130, 192, 194);
+    text-align: center;
+}
